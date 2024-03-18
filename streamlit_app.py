@@ -10,7 +10,7 @@ word_chi= voc['Hanzi'].values[i]
 st.write(word_fr+""+ word_chi)
 st.button("refresh")
 indices=np.random.choice(l,size=4,replace=False)
-st.write(indices)
+j=np.random.choice(indices)
 word_fr=voc["Definition"].values[j]
 st.write("Traduis;"+word_fr)
 for i in range(4):
